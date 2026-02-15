@@ -10,19 +10,19 @@ const FAQ_ITEMS = [
   },
   {
     q: "Quelles sont les sanctions si je ne suis pas conforme ?",
-    a: "Les entreprises non conformes s'exposent a des amendes et penalites fiscales. La DGI effectue des controles reguliers. Billio vous met en conformite automatiquement.",
+    a: "Les entreprises non conformes s'exposent a des amendes et penalites fiscales. La DGI effectue des controles reguliers. Djeli vous met en conformite automatiquement.",
   },
   {
-    q: "Billio fonctionne-t-il avec Orange Money et MTN ?",
-    a: "Oui ! Billio integre Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement depuis leur telephone.",
+    q: "Djeli fonctionne-t-il avec Orange Money et MTN ?",
+    a: "Oui ! Djeli integre Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement depuis leur telephone.",
   },
   {
-    q: "Combien coute Billio ?",
+    q: "Combien coute Djeli ?",
     a: "Essai gratuit de 14 jours. Ensuite, les plans commencent a 10,000 FCFA/mois pour les microentreprises. Moins cher qu'un comptable.",
   },
   {
-    q: "Puis-je utiliser Billio sur mon telephone ?",
-    a: "Oui, Billio est concu mobile-first. Creez et envoyez des factures depuis votre smartphone, meme hors connexion.",
+    q: "Puis-je utiliser Djeli sur mon telephone ?",
+    a: "Oui, Djeli est concu mobile-first. Creez et envoyez des factures depuis votre smartphone, meme hors connexion.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold">
-            <span className="text-emerald-400">Bil</span>lio
+            <span className="text-emerald-400">Dje</span>li
           </div>
           <a
             href="#waitlist"
@@ -141,7 +141,7 @@ export default function Home() {
 
           <div className="text-center mt-8">
             <p className="text-emerald-400 font-semibold text-lg">
-              Billio resout tous ces problemes.
+              Djeli resout tous ces problemes.
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Pourquoi Billio ?
+              Pourquoi Djeli ?
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto">
               Une solution pensee pour les entrepreneurs ivoiriens.
@@ -214,7 +214,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🎉</div>
               <h3 className="text-xl font-semibold mb-2">Merci !</h3>
               <p className="text-gray-400">
-                Vous etes inscrit. On vous contacte des que Billio est pret.
+                Vous etes inscrit. On vous contacte des que Djeli est pret.
               </p>
             </div>
           ) : (
@@ -276,16 +276,16 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-2xl font-bold">
-              <span className="text-emerald-400">Bil</span>lio
+              <span className="text-emerald-400">Dje</span>li
             </div>
             <div className="flex gap-6 text-gray-400 text-sm">
-              <a href="mailto:contact@billio.app" className="hover:text-white transition-colors">
+              <a href="mailto:contact@djeli.app" className="hover:text-white transition-colors">
                 Contact
               </a>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-            2026 Billio. Tous droits reserves.
+            2026 Djeli. Tous droits reserves.
           </div>
         </div>
       </footer>

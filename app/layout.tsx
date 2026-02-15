@@ -12,11 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://billio.vercel.app";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://djeli.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: "Billio - Facturation FNE conforme pour PME Cote d'Ivoire",
+  title: "Djeli - Facturation FNE conforme pour PME Cote d'Ivoire",
   description:
     "Creez des factures normalisees electroniques (FNE) conformes en 30 secondes. Solution mobile-first avec paiement Mobile Money integre pour PME ivoiriennes.",
   keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Billio - Facturation FNE conforme pour PME",
+    title: "Djeli - Facturation FNE conforme pour PME",
     description:
       "Factures FNE conformes en 30 secondes. Mobile-first, paiement Mobile Money integre.",
     type: "website",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const softwareAppSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "Billio",
+  name: "Djeli",
   description:
     "Application de facturation FNE conforme pour PME en Cote d'Ivoire. Mobile-first avec paiement Mobile Money.",
   applicationCategory: "BusinessApplication",
@@ -82,26 +82,26 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Billio fonctionne-t-il avec Orange Money et MTN ?",
+      name: "Djeli fonctionne-t-il avec Orange Money et MTN ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui, Billio integre tous les moyens de paiement Mobile Money : Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement.",
+        text: "Oui, Djeli integre tous les moyens de paiement Mobile Money : Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement.",
       },
     },
     {
       "@type": "Question",
-      name: "Combien coute Billio ?",
+      name: "Combien coute Djeli ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Billio propose un essai gratuit de 14 jours. Ensuite, les plans commencent a 10,000 FCFA/mois pour les microentreprises.",
+        text: "Djeli propose un essai gratuit de 14 jours. Ensuite, les plans commencent a 10,000 FCFA/mois pour les microentreprises.",
       },
     },
     {
       "@type": "Question",
-      name: "Puis-je utiliser Billio sur mon telephone ?",
+      name: "Puis-je utiliser Djeli sur mon telephone ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui, Billio est concu mobile-first. Vous pouvez creer et envoyer des factures depuis votre smartphone, meme hors connexion.",
+        text: "Oui, Djeli est concu mobile-first. Vous pouvez creer et envoyer des factures depuis votre smartphone, meme hors connexion.",
       },
     },
   ],

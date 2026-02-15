@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Billio - Facturation FNE conforme pour PME Cote d'Ivoire";
+export const alt = "Djeli - Facturation FNE conforme pour PME Cote d'Ivoire";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -44,7 +44,7 @@ export default async function Image() {
                 color: "white",
               }}
             >
-              <span style={{ color: "#34d399" }}>Bil</span>lio
+              <span style={{ color: "#34d399" }}>Dje</span>li
             </span>
           </div>
 
