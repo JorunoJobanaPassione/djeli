@@ -1,12 +1,14 @@
 # Djeli - Progression
 
-## Statut : 3/10 - Landing page de validation
+## Statut : 4/10 - Landing page prête pour validation
 
 **Dernière MAJ** : 15 février 2026
 
 | Élément | Status |
 |---------|--------|
 | Landing page | Live sur Vercel |
+| SEO (robots, sitemap, favicon) | ✓ Fait |
+| Validation email/tel | ✓ Fait |
 | Waitlist form | Fonctionnel (mode dev) |
 | Supabase | À configurer |
 | Pub Facebook | À lancer |
@@ -126,21 +128,23 @@
 
 ### Immédiat (Avant pub Facebook)
 
-**SEO Critique**
-- [ ] Créer `app/robots.ts` (Allow: /)
-- [ ] Créer `app/sitemap.ts` (URL landing)
-- [ ] Ajouter favicon (`app/icon.png` 32x32 et 180x180)
+**SEO Critique** ✓ FAIT
+- [x] Créer `app/robots.ts` (Allow: /)
+- [x] Créer `app/sitemap.ts` (URL landing)
+- [x] Ajouter favicon (`app/icon.tsx` 32x32 + `app/apple-icon.tsx` 180x180)
 
-**Backend**
+**Code Quality** ✓ FAIT
+- [x] Ajouter validation email (regex) dans actions.ts
+- [x] Ajouter validation téléphone (+225) dans actions.ts
+- [x] Utiliser upsert pour éviter doublons
+- [x] Mettre à jour tsconfig.json (target ES2022)
+- [x] Ajouter contrainte UNIQUE + indexes dans schema SQL
+
+**Backend** (Manuel)
 - [ ] Créer projet Supabase
 - [ ] Exécuter `supabase-schema.sql`
-- [ ] Ajouter contrainte UNIQUE sur email
 - [ ] Ajouter variables env sur Vercel
-
-**Code Quality**
-- [ ] Ajouter validation email (regex) dans actions.ts
-- [ ] Ajouter validation téléphone dans actions.ts
-- [ ] Mettre à jour tsconfig.json (target ES2020)
+- [ ] Redéployer
 
 ### Cette semaine
 - [ ] Configurer Supabase complet
@@ -226,16 +230,17 @@
 
 | Fichier | Rôle | Status |
 |---------|------|--------|
-| `app/page.tsx` | Landing page | ✓ 294 lignes |
+| `app/page.tsx` | Landing page | ✓ |
 | `app/layout.tsx` | Metadata + Schema.org | ✓ |
-| `app/actions.ts` | Server action waitlist | ⚠️ Validation manquante |
+| `app/actions.ts` | Server action waitlist | ✓ Validation ajoutée |
 | `app/opengraph-image.tsx` | OG image dynamique | ✓ |
 | `app/twitter-image.tsx` | Twitter image | ✓ |
+| `app/robots.ts` | SEO robots | ✓ |
+| `app/sitemap.ts` | SEO sitemap | ✓ |
+| `app/icon.tsx` | Favicon 32x32 | ✓ |
+| `app/apple-icon.tsx` | Apple icon 180x180 | ✓ |
 | `lib/supabase.ts` | Client Supabase | ✓ |
-| `supabase-schema.sql` | Schema DB | ⚠️ Unique manquant |
-| `app/robots.ts` | SEO robots | ❌ À créer |
-| `app/sitemap.ts` | SEO sitemap | ❌ À créer |
-| `app/icon.png` | Favicon | ❌ À créer |
+| `supabase-schema.sql` | Schema DB | ✓ UNIQUE + indexes |
 
 ---
 
