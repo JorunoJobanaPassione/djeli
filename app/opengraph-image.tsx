@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Djeli - Facturation FNE conforme pour PME Cote d'Ivoire";
+export const alt = "Djeli - Facturation FNE conforme pour PME Côte d'Ivoire";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -124,7 +124,7 @@ export default async function Image() {
               }}
             >
               <span>🇨🇮</span>
-              <span>Cote d'Ivoire</span>
+              <span>Côte d'Ivoire</span>
             </div>
           </div>
         </div>

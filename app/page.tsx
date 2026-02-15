@@ -5,24 +5,24 @@ import { joinWaitlist } from "./actions";
 
 const FAQ_ITEMS = [
   {
-    q: "Qu'est-ce que la FNE en Cote d'Ivoire ?",
-    a: "La Facture Normalisee Electronique (FNE) est obligatoire depuis mai 2025 pour toutes les entreprises en Cote d'Ivoire. Chaque facture doit etre connectee au systeme de la DGI avec un QR code de validation.",
+    q: "Qu'est-ce que la FNE en Côte d'Ivoire ?",
+    a: "La Facture Normalisée Électronique (FNE) est obligatoire depuis mai 2025 pour toutes les entreprises en Côte d'Ivoire. Chaque facture doit être connectée au système de la DGI avec un QR code de validation.",
   },
   {
     q: "Quelles sont les sanctions si je ne suis pas conforme ?",
-    a: "Les entreprises non conformes s'exposent a des amendes et penalites fiscales. La DGI effectue des controles reguliers. Djeli vous met en conformite automatiquement.",
+    a: "Les entreprises non conformes s'exposent à des amendes et pénalités fiscales. La DGI effectue des contrôles réguliers. Djeli vous met en conformité automatiquement.",
   },
   {
     q: "Djeli fonctionne-t-il avec Orange Money et MTN ?",
-    a: "Oui ! Djeli integre Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement depuis leur telephone.",
+    a: "Oui ! Djeli intègre Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement depuis leur téléphone.",
   },
   {
-    q: "Combien coute Djeli ?",
-    a: "Essai gratuit de 14 jours. Ensuite, les plans commencent a 10,000 FCFA/mois pour les microentreprises. Moins cher qu'un comptable.",
+    q: "Combien coûte Djeli ?",
+    a: "Essai gratuit de 14 jours. Ensuite, les plans commencent à 10 000 FCFA/mois pour les microentreprises. Moins cher qu'un comptable.",
   },
   {
-    q: "Puis-je utiliser Djeli sur mon telephone ?",
-    a: "Oui, Djeli est concu mobile-first. Creez et envoyez des factures depuis votre smartphone, meme hors connexion.",
+    q: "Puis-je utiliser Djeli sur mon téléphone ?",
+    a: "Oui, Djeli est conçu mobile-first. Créez et envoyez des factures depuis votre smartphone, même hors connexion.",
   },
 ];
 
@@ -30,12 +30,12 @@ const BENEFITS = [
   {
     icon: "🛡️",
     title: "Conforme FNE",
-    description: "Factures normalisees avec QR code DGI. Zero risque d'amende.",
+    description: "Factures normalisées avec QR code DGI. Zéro risque d'amende.",
   },
   {
     icon: "📱",
     title: "Mobile-first",
-    description: "Creez des factures en 30 secondes depuis votre telephone.",
+    description: "Créez des factures en 30 secondes depuis votre téléphone.",
   },
   {
     icon: "💰",
@@ -44,16 +44,16 @@ const BENEFITS = [
   },
   {
     icon: "📊",
-    title: "Suivi impayes",
+    title: "Suivi impayés",
     description: "Voyez qui vous doit de l'argent. Relances automatiques.",
   },
 ];
 
 const PAIN_POINTS = [
   "Vous faites encore vos factures sur papier ou Excel ?",
-  "Vous ne savez pas si vous etes conforme a la FNE ?",
-  "Vous perdez de l'argent a cause des impayes ?",
-  "Vous n'avez aucune visibilite sur votre CA ?",
+  "Vous ne savez pas si vous êtes conforme à la FNE ?",
+  "Vous perdez de l'argent à cause des impayés ?",
+  "Vous n'avez aucune visibilité sur votre CA ?",
 ];
 
 export default function Home() {
@@ -105,8 +105,8 @@ export default function Home() {
           </h1>
 
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            La solution mobile-first pour PME ivoiriennes. Conformite DGI automatique,
-            paiement Mobile Money integre.
+            La solution mobile-first pour PME ivoiriennes. Conformité DGI automatique,
+            paiement Mobile Money intégré.
           </p>
 
           <a
@@ -141,7 +141,7 @@ export default function Home() {
 
           <div className="text-center mt-8">
             <p className="text-emerald-400 font-semibold text-lg">
-              Djeli resout tous ces problemes.
+              Djeli résout tous ces problèmes.
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function Home() {
               Pourquoi Djeli ?
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto">
-              Une solution pensee pour les entrepreneurs ivoiriens.
+              Une solution pensée pour les entrepreneurs ivoiriens.
               Simple, conforme, abordable.
             </p>
           </div>
@@ -181,7 +181,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 text-center">
             <div>
               <div className="text-3xl font-bold text-emerald-400">56K+</div>
-              <div className="text-sm text-gray-400">PME en Cote d'Ivoire</div>
+              <div className="text-sm text-gray-400">PME en Côte d'Ivoire</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-emerald-400">70%</div>
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             <div>
               <div className="text-3xl font-bold text-emerald-400">30s</div>
-              <div className="text-sm text-gray-400">Pour creer une facture</div>
+              <div className="text-sm text-gray-400">Pour créer une facture</div>
             </div>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function Home() {
             Soyez parmi les premiers
           </h2>
           <p className="text-gray-400 mb-10 text-lg">
-            Rejoignez la liste d'attente et beneficiez de 3 mois gratuits au lancement.
+            Rejoignez la liste d'attente et bénéficiez de 3 mois gratuits au lancement.
           </p>
 
           {submitted ? (
@@ -214,7 +214,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🎉</div>
               <h3 className="text-xl font-semibold mb-2">Merci !</h3>
               <p className="text-gray-400">
-                Vous etes inscrit. On vous contacte des que Djeli est pret.
+                Vous êtes inscrit. On vous contacte dès que Djeli est prêt.
               </p>
             </div>
           ) : (
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="text-gray-500 text-sm">ou</div>
               <input
                 type="tel"
-                placeholder="Votre numero WhatsApp (ex: +225 07 XX XX XX)"
+                placeholder="Votre numéro WhatsApp (ex: +225 07 XX XX XX)"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="w-full px-6 py-4 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -254,7 +254,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Questions frequentes
+              Questions fréquentes
             </h2>
           </div>
           <div className="space-y-4">
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-            2026 Djeli. Tous droits reserves.
+            © 2026 Djeli. Tous droits réservés.
           </div>
         </div>
       </footer>

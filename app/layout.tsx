@@ -16,18 +16,18 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://djeli.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: "Djeli - Facturation FNE conforme pour PME Cote d'Ivoire",
+  title: "Djeli - Facturation FNE conforme pour PME Côte d'Ivoire",
   description:
-    "Creez des factures normalisees electroniques (FNE) conformes en 30 secondes. Solution mobile-first avec paiement Mobile Money integre pour PME ivoiriennes.",
+    "Créez des factures normalisées électroniques (FNE) conformes en 30 secondes. Solution mobile-first avec paiement Mobile Money intégré pour PME ivoiriennes.",
   keywords: [
-    "facturation Cote d'Ivoire",
+    "facturation Côte d'Ivoire",
     "FNE",
-    "facture normalisee electronique",
+    "facture normalisée électronique",
     "logiciel facturation PME",
-    "facturation electronique Afrique",
+    "facturation électronique Afrique",
     "Mobile Money",
     "Orange Money facturation",
-    "comptabilite PME Abidjan",
+    "comptabilité PME Abidjan",
   ],
   alternates: {
     canonical: "/",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Djeli - Facturation FNE conforme pour PME",
     description:
-      "Factures FNE conformes en 30 secondes. Mobile-first, paiement Mobile Money integre.",
+      "Factures FNE conformes en 30 secondes. Mobile-first, paiement Mobile Money intégré.",
     type: "website",
     locale: "fr_FR",
   },
@@ -49,7 +49,7 @@ const softwareAppSchema = {
   "@type": "SoftwareApplication",
   name: "Djeli",
   description:
-    "Application de facturation FNE conforme pour PME en Cote d'Ivoire. Mobile-first avec paiement Mobile Money.",
+    "Application de facturation FNE conforme pour PME en Côte d'Ivoire. Mobile-first avec paiement Mobile Money.",
   applicationCategory: "BusinessApplication",
   operatingSystem: ["Web", "iOS", "Android"],
   offers: {
@@ -66,10 +66,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Qu'est-ce que la FNE en Cote d'Ivoire ?",
+      name: "Qu'est-ce que la FNE en Côte d'Ivoire ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La Facture Normalisee Electronique (FNE) est obligatoire depuis mai 2025 pour toutes les entreprises en Cote d'Ivoire. Elle doit etre connectee au systeme de la DGI avec un QR code de validation.",
+        text: "La Facture Normalisée Électronique (FNE) est obligatoire depuis mai 2025 pour toutes les entreprises en Côte d'Ivoire. Elle doit être connectée au système de la DGI avec un QR code de validation.",
       },
     },
     {
@@ -77,7 +77,7 @@ const faqSchema = {
       name: "Quelles sont les sanctions si je ne suis pas conforme FNE ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Les entreprises non conformes s'exposent a des amendes et des penalites fiscales. La DGI effectue des controles reguliers pour verifier la conformite.",
+        text: "Les entreprises non conformes s'exposent à des amendes et des pénalités fiscales. La DGI effectue des contrôles réguliers pour vérifier la conformité.",
       },
     },
     {
@@ -85,23 +85,23 @@ const faqSchema = {
       name: "Djeli fonctionne-t-il avec Orange Money et MTN ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui, Djeli integre tous les moyens de paiement Mobile Money : Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement.",
+        text: "Oui, Djeli intègre tous les moyens de paiement Mobile Money : Orange Money, MTN Mobile Money et Wave. Vos clients peuvent payer leurs factures directement.",
       },
     },
     {
       "@type": "Question",
-      name: "Combien coute Djeli ?",
+      name: "Combien coûte Djeli ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Djeli propose un essai gratuit de 14 jours. Ensuite, les plans commencent a 10,000 FCFA/mois pour les microentreprises.",
+        text: "Djeli propose un essai gratuit de 14 jours. Ensuite, les plans commencent à 10 000 FCFA/mois pour les microentreprises.",
       },
     },
     {
       "@type": "Question",
-      name: "Puis-je utiliser Djeli sur mon telephone ?",
+      name: "Puis-je utiliser Djeli sur mon téléphone ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui, Djeli est concu mobile-first. Vous pouvez creer et envoyer des factures depuis votre smartphone, meme hors connexion.",
+        text: "Oui, Djeli est conçu mobile-first. Vous pouvez créer et envoyer des factures depuis votre smartphone, même hors connexion.",
       },
     },
   ],
